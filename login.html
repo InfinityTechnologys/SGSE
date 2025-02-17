@@ -31,12 +31,33 @@
           <li><a href="scan.html">İşletme Tara</a></li>
           <li><a href="about.html">Hakkımızda</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
-          <li><a href="signup.html">Kayıt Yap</a></li>
+          <li><a href="signup.html">Kayıt Ol</a></li>
         </ul>
       </nav>
     </header>
 
-    <h1>Giriş Yap</h1>
+    <center><h1 class="title_login">Giriş Yap</h1></center>
+
+    <center>
+      <input
+        type="text"
+        name=""
+        id=""
+        placeholder="E-Mail adresinizi giriniz..."
+      />
+    </center>
+
+    <center>
+      <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
+    </center>
+    <br />
+    <center>
+      <button class="login_button" onclick="login()">Giriş Yap</button>
+    </center>
+    <br>
+    <center>
+      <a href="signup.html">Hesabınız yok mu? Kayıt olun</a>
+    </center>
 
     <script>
       window.addEventListener("load", function () {
@@ -44,6 +65,12 @@
           document.getElementById("preloader").classList.add("hidden");
         }, 350);
       });
+
+      function login() {
+        alert(
+          "Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için giriş yapma işlemi başarısız!"
+        );
+      }
     </script>
   </body>
 </html>
