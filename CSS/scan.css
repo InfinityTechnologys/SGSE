@@ -76,3 +76,20 @@ nav ul li a:hover {
 .hidden {
   display: none;
 }
+
+::-webkit-scrollbar {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e3651d;
+  border-radius: 12px;
+}
+
+.text_build{
+  font-size: 30px;
+}
+
+.goto_home{
+  padding-top: 20px;
+}
