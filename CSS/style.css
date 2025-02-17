@@ -115,3 +115,13 @@ nav ul li a:hover {
 .company-search-container button:hover {
   background-color: #ff3d00;
 }
+
+::-webkit-scrollbar {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e3651d;
+  border-radius: 12px;
+}
+
