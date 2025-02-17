@@ -76,3 +76,56 @@ nav ul li a:hover {
 .hidden {
   display: none;
 }
+
+.title_about {
+  color: #e3651d;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h4 {
+  color: #e3651d;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.text_about_team {
+  font-size: 19px;
+  margin-left: 65px;
+  margin-top: 35px;
+}
+
+.proje_amac {
+  color: #e3651d;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.text_about_project {
+  font-size: 19px;
+  margin-left: 65px;
+  margin-top: 35px;
+}
+
+.github_link {
+  color: #333;
+  font-size: 17px;
+  margin-top: 350px;
+}
+
+::-webkit-scrollbar {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e3651d;
+  border-radius: 12px;
+}
+
+.email {
+  color: #333;
+  font-size: 17px;
+}
