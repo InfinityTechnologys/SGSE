@@ -31,12 +31,33 @@
           <li><a href="scan.html">İşletme Tara</a></li>
           <li><a href="about.html">Hakkımızda</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
-          <li><a href="signup.html">Kayıt Yap</a></li>
+          <li><a href="signup.html">Kayıt Ol</a></li>
         </ul>
       </nav>
     </header>
 
-    <h1>Kayıt Ol</h1>
+    <center><h1 class="signup_title">Kayıt Ol : #1 Hesap Bilgileri</h1></center>
+
+    <center>
+      <input
+        type="text"
+        name=""
+        id=""
+        placeholder="E-Mail adresinizi giriniz..."
+      />
+    </center>
+
+    <center>
+      <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
+    </center>
+    <br />
+    <center>
+      <button class="login_button" onclick="register()">Hesap Oluştur</button>
+    </center>
+    <br>
+    <center>
+      <a href="signup.html">Hesabınız varmı? Giriş yapın</a>
+    </center>
 
     <script>
       window.addEventListener("load", function () {
@@ -44,6 +65,10 @@
           document.getElementById("preloader").classList.add("hidden");
         }, 350);
       });
+
+      function register() {
+        alert("Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için hesap açma işlemi başarısız!")
+      }
     </script>
   </body>
 </html>
