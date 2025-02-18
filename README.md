@@ -1,4 +1,4 @@
-# Askıda Yemek Projesi
+# Sınırlı Yemek Sınırsız Erişim (SYSE) Projesi
 
 ## Proje Hakkında
 Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir.
