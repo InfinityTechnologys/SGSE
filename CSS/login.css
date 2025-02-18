@@ -11,14 +11,14 @@ body {
 }
 
 header {
-  background-color: #e3651d;
+  background-color: #ff5733;
   padding: 20px 0px;
   color: white;
   text-align: center;
 }
 
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-right: 100px;
 }
 
@@ -42,7 +42,7 @@ nav ul li a:hover {
 
 .logo_white {
   float: left;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .preloader {
