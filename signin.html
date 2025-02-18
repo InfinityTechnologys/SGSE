@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGSE | Kayıt Ol</title>
+    <link rel="stylesheet" href="CSS/signup.css" />
+    <link rel="shotcut icon" href="image/ikon_v2.PNG" />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <header>
+      <a href="index.html">
+        <img
+          width="110"
+          height="110"
+          src="image/ikon_2.PNG"
+          alt="logo_white"
+          class="logo_white"
+        />
+      </a>
+
+      <h1>Sınırsız Gıda Sınırlı Erişim</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="scan.html">İşletme Tara</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="login.html">Giriş Yap</a></li>
+          <li>
+            <a href="signin.html" style="text-decoration: underline"
+              >Kayıt Ol</a
+            >
+            <li><a href="mobile.html">Mobil</a></li>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <center><h1 class="signup_title">Kayıt Ol : Hesap Bilgileri</h1></center>
+
+    <center>
+      <input
+        type="text"
+        name=""
+        id=""
+        placeholder="E-Mail adresinizi giriniz..."
+      />
+    </center>
+
+    <center>
+      <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
+    </center>
+    <br />
+    <center>
+      <button class="login_button" onclick="register()">Hesap Oluştur</button>
+    </center>
+    <br />
+    <center>
+      <a href="signup.html">Hesabınız varmı? Giriş yapın</a>
+    </center>
+
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.getElementById("preloader").classList.add("hidden");
+        }, 350);
+      });
+
+      function register() {
+        alert(
+          "Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için hesap açma işlemi başarısız!"
+        );
+      }
+    </script>
+  </body>
+</html>
