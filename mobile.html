@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SGSE | Mobil Uygulama</title>
-    <link rel="stylesheet" href="CSS/mobil.css" />
+    <title>SGSE | Giriş Yap</title>
+    <link rel="stylesheet" href="CSS/login.css" />
     <link rel="shotcut icon" href="image/ikon_v2.PNG" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="preloader" id="preloader">
@@ -28,36 +27,49 @@
 
       <nav>
         <ul>
-          <li>
-            <a href="index.html">Ana Sayfa</a>
-          </li>
-          <li><a href="scan.html">İşletme Tara</a></li>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="scan.html">İşletme Sorgula</a></li>
           <li><a href="about.html">Hakkımızda</a></li>
-          <li><a href="login.html">Giriş Yap</a></li>
+          <li><a href="login.html" style="text-decoration: underline">Giriş Yap</a></li>
           <li><a href="signin.html">Kayıt Ol</a></li>
-          <li>
-            <a href="mobile.html" style="text-decoration: underline">Mobil</a>
-          </li>
+          <li><a href="app.html">Uygulamalar</a></li>
         </ul>
       </nav>
+
+      <center>
+        <button onclick="ileri()" class="ileri">
+          <img width="20" src="image/ileri.png" alt="ileri" />
+        </button>
+      </center>
+
+      <center>
+        <button onclick="geri()" class="geri">
+          <img width="20" src="image/geri.png" alt="geri" />
+        </button>
+      </center>
     </header>
 
-    <center><h1 class="title_mobil">Mobil Uygulamamız</h1></center>
-
-    <h2 class="mobil_about">Uygulama Hakkında</h4>
-
-    <div class="mobil_app_about">
-      <p><b>Sürüm : V1.1 [ALPHA]</b></p>
-      <br />
-      <p><b>Desteklenen İşletim Sistemi : Android</b></p>
-      <br />
-      <p><b>Android Sürüm Minimum : 5.0 - 5.0.2</b></p>
-    </div>
-
-    <button class="web_app_button" onclick="download()">SGSE.apk Uygulamasını İndir (4.7 MB)</button>
+    <center><h1 class="title_login">Giriş Yap</h1></center>
 
     <center>
-    <h3 class="mail_adress">e-Mail : infinitytech.takimi@gmail.com</h3>
+      <input
+        type="text"
+        name=""
+        id=""
+        placeholder="E-Mail adresinizi giriniz..."
+      />
+    </center>
+
+    <center>
+      <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
+    </center>
+    <br />
+    <center>
+      <button class="login_button" onclick="login()">Giriş Yap</button>
+    </center>
+    <br>
+    <center>
+      <a href="signin.html">Hesabınız yok mu? Kayıt olun</a>
     </center>
 
     <script>
@@ -67,8 +79,18 @@
         }, 350);
       });
 
-      function download() {
-        alert("SGSE.apk uygulaması yapım aşamasında olduğu için indirilmemektedir.")
+      function login() {
+        alert(
+          "Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için giriş yapma işlemi başarısız!"
+        );
+      }
+
+      function ileri() {
+          window.location.href = "signin.html";
+      }
+
+      function geri() {
+          window.location.href = "about.html";
       }
     </script>
   </body>
