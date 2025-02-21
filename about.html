@@ -28,7 +28,7 @@
       <nav>
         <ul>
           <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="scan.html">İşletme Tara</a></li>
+          <li><a href="scan.html">İşletme Sorgula</a></li>
           <li>
             <a href="about.html" style="text-decoration: underline"
               >Hakkımızda</a
@@ -36,9 +36,21 @@
           </li>
           <li><a href="login.html">Giriş Yap</a></li>
           <li><a href="signin.html">Kayıt Ol</a></li>
-          <li><a href="mobile.html">Mobil</a></li>
+          <li><a href="app.html">Uygulamalar</a></li>
         </ul>
       </nav>
+
+      <center>
+        <button onclick="ileri()" class="ileri">
+          <img width="20" src="image/ileri.png" alt="ileri" />
+        </button>
+      </center>
+
+      <center>
+        <button onclick="geri()" class="geri">
+          <img width="20" src="image/geri.png" alt="geri" />
+        </button>
+      </center>
     </header>
 
     <h1 class="title_about">Hakkımızda</h1>
@@ -71,6 +83,8 @@
     </h4>
 
     <h4 class="email">E-Mail Adresimiz : infinitytech.takimi@gmail.com</h4>
+    <br>
+    <br>
 
     <script>
       window.addEventListener("load", function () {
@@ -78,6 +92,14 @@
           document.getElementById("preloader").classList.add("hidden");
         }, 350);
       });
+
+      function ileri() {
+          window.location.href = "login.html";
+      }
+
+      function geri() {
+          window.location.href = "scan.html";
+      }
     </script>
   </body>
 </html>
