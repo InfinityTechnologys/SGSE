@@ -28,17 +28,30 @@
       <nav>
         <ul>
           <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="scan.html">İşletme Tara</a></li>
+          <li><a href="scan.html">İşletme Sorgula</a></li>
           <li><a href="about.html">Hakkımızda</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
           <li>
             <a href="signin.html" style="text-decoration: underline"
               >Kayıt Ol</a
             >
-            <li><a href="mobile.html">Mobil</a></li>
+            <li><a href="app.html">Uygulamalar</a></li>
           </li>
         </ul>
       </nav>
+
+      <center>
+        <button onclick="ileri()" class="ileri">
+          <img width="20" src="image/ileri.png" alt="ileri" />
+        </button>
+      </center>
+
+      <center>
+        <button onclick="geri()" class="geri">
+          <img width="20" src="image/geri.png" alt="geri" />
+        </button>
+      </center>
+
     </header>
 
     <center><h1 class="signup_title">Kayıt Ol : Hesap Bilgileri</h1></center>
@@ -75,6 +88,14 @@
         alert(
           "Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için hesap açma işlemi başarısız!"
         );
+      }
+
+      function ileri() {
+          window.location.href = "app.html";
+      }
+
+      function geri() {
+          window.location.href = "login.html";
       }
     </script>
   </body>
