@@ -28,22 +28,39 @@
       <nav>
         <ul>
           <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="scan.html" style="text-decoration: underline">İşletme Tara</a></li>
+          <li>
+            <a href="scan.html" style="text-decoration: underline"
+              >İşletme Sorgula</a
+            >
+          </li>
           <li><a href="about.html">Hakkımızda</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
           <li><a href="signin.html">Kayıt Ol</a></li>
-          <li><a href="mobile.html">Mobil</a></li>
+          <li><a href="app.html">Uygulamalar</a></li>
         </ul>
       </nav>
+
+      <center>
+        <button onclick="ileri()" class="ileri">
+          <img width="20" src="image/ileri.png" alt="ileri" />
+        </button>
+      </center>
+
+      <center>
+        <button onclick="geri()" class="geri">
+          <img width="20" src="image/geri.png" alt="geri" />
+        </button>
+      </center>
     </header>
 
-    <center>
-      <img class="build" width="500" src="image/bakimda.PNG" alt="yapim_asamasi" />
-    </center>
+    <center><h1 class="sorgula_title">İşletme Sorgulat</h1></center>
 
-    <center><h4 class="text_build">Bu Sayfa Yapım Aşamasındadır!</h4></center>
-    <br>
-   <center><a class="goto_home" href="index.html">Ana Sayfaya Geri Dön</a></center>
+    <div class="container">
+      <div class="company-search-container">
+        <input type="text" placeholder="Bir işletme sorgula..." />
+        <button type="submit" onclick="sorgula()">Sorgulat</button>
+      </div>
+    </div>
 
     <script>
       window.addEventListener("load", function () {
@@ -51,6 +68,20 @@
           document.getElementById("preloader").classList.add("hidden");
         }, 350);
       });
+
+      function sorgula() {
+        alert(
+          "Bu site prototip gösterim sitesi olduğu için sorgu işlemi yapılamamaktadır!"
+        );
+      }
+
+      function ileri() {
+          window.location.href = "about.html";
+      }
+
+      function geri() {
+          window.location.href = "index.html";
+      }
     </script>
   </body>
 </html>
