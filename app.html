@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SGSE | Giriş Yap</title>
-    <link rel="stylesheet" href="CSS/login.css" />
+    <title>SGSE | Uygulamalar</title>
+    <link rel="stylesheet" href="CSS/app.css" />
     <link rel="shotcut icon" href="image/ikon_v2.PNG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="preloader" id="preloader">
@@ -27,20 +28,18 @@
 
       <nav>
         <ul>
-          <li><a href="index.html">Ana Sayfa</a></li>
+          <li>
+            <a href="index.html">Ana Sayfa</a>
+          </li>
           <li><a href="scan.html">İşletme Sorgula</a></li>
           <li><a href="about.html">Hakkımızda</a></li>
-          <li><a href="login.html" style="text-decoration: underline">Giriş Yap</a></li>
+          <li><a href="login.html">Giriş Yap</a></li>
           <li><a href="signin.html">Kayıt Ol</a></li>
-          <li><a href="app.html">Uygulamalar</a></li>
+          <li>
+            <a href="app.html" style="text-decoration: underline">Uygulamalar</a>
+          </li>
         </ul>
       </nav>
-
-      <center>
-        <button onclick="ileri()" class="ileri">
-          <img width="20" src="image/ileri.png" alt="ileri" />
-        </button>
-      </center>
 
       <center>
         <button onclick="geri()" class="geri">
@@ -49,27 +48,25 @@
       </center>
     </header>
 
-    <center><h1 class="title_login">Giriş Yap</h1></center>
+    <center><h1 class="title_mobil">Mobil Uygulamamız</h1></center>
 
-    <center>
-      <input
-        type="text"
-        name=""
-        id=""
-        placeholder="E-Mail adresinizi giriniz..."
-      />
-    </center>
+    <h2 class="mobil_about">Uygulama Hakkında</h4>
 
-    <center>
-      <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
-    </center>
-    <br />
-    <center>
-      <button class="login_button" onclick="login()">Giriş Yap</button>
-    </center>
+    <div class="mobil_app_about">
+      <p><b>Sürüm : V1.1</b></p>
+      <br />
+      <p><b>Desteklenen İşletim Sistemi : Android</b></p>
+      <br />
+      <p><b>Android Sürüm Minimum : 5.0 - 5.0.2</b></p>
+    </div>
     <br>
+    <br>
+    <br>
+    <br>
+    <a class="app_download" href="https://infinitytechnologys.github.io/SGSE_Prototip/app.html" download="sgse.apk">SGSE.apk Uygulamasını İndir (6.7 MB)</a>
+
     <center>
-      <a href="signin.html">Hesabınız yok mu? Kayıt olun</a>
+    <h3 class="mail_adress">e-Mail : infinitytech.takimi@gmail.com</h3>
     </center>
 
     <script>
@@ -79,18 +76,8 @@
         }, 350);
       });
 
-      function login() {
-        alert(
-          "Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için giriş yapma işlemi başarısız!"
-        );
-      }
-
-      function ileri() {
-          window.location.href = "signin.html";
-      }
-
       function geri() {
-          window.location.href = "about.html";
+          window.location.href = "signin.html";
       }
     </script>
   </body>
