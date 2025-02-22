@@ -100,17 +100,16 @@ nav ul li a:hover {
   left: 50px;
 }
 
-
 button:hover {
   background-color: #ff3d00;
 }
 
-.mail_adress{
-    font-size: 20px;
-    margin-top: 350px;
+.mail_adress {
+  font-size: 20px;
+  margin-top: 350px;
 }
 
-.app_download{
+.app_download {
   margin-left: 50px;
 }
 
@@ -135,7 +134,7 @@ button:hover {
     width: 100%;
   }
 
-  header .ileri{
+  header .ileri {
     display: block;
     margin-top: -80px;
     font-size: 0px;
@@ -192,8 +191,15 @@ button:hover {
     transition: 300ms all;
   }
 
-  .app_download{
+  .app_download {
     margin-left: 20px;
   }
-}
 
+  .yapim_asamasinda {
+    width: 250px;
+  }
+
+  .asama_hakkinda {
+    font-size: 20px;
+  }
+}
