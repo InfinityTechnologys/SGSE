@@ -6,6 +6,6 @@ Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTe
 ## Lisans Kullanım
 
 >[!WARNING]
->Uygulamanın kaynak kodlarını kullanmadan önce lisansı okumalı ve kodları kullanırken kötü amaçlı yazılımlarda veya ticari işlemler için kullanmayınız!
+>Uygulamaın kaynak kodlarını kullanmayınız. Lütfen LICENSE_PRIVATE.md sözleşmesini okuyun!!
 
 Projemizi geliştirmeye devam edeceğiz.
