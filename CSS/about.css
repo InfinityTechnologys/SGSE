@@ -124,18 +124,14 @@ header .geri {
   margin-top: 350px;
 }
 
-::-webkit-scrollbar {
-  background: white;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #e3651d;
-  border-radius: 12px;
-}
-
 .email {
   color: #333;
   font-size: 17px;
+}
+
+.developer {
+  margin-top: 60px;
+  margin-left: 65px;
 }
 
 @media (max-width: 600px) {
