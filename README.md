@@ -4,7 +4,7 @@
 
 # Sınırsız Gıda Sınırlı Erişim (SGSE) Projesi
 
-[![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/channel/@InfinityTechnologys)
+[![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/@InfinityTechnologys)
 
 Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir.
 
