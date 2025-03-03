@@ -6,7 +6,7 @@
 
 [![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/@InfinityTechnologys)
 <a href="https://sgse.pages.dev/" target="_blank">
-    <img src="https://raw.githubusercontent.com/InfinityTechnologys/SGSE_Prototip/refs/heads/main/image/site_ikon.ico" alt="sgse" width="30">
+    <img src="https://raw.githubusercontent.com/InfinityTechnologys/SGSE_Prototip/refs/heads/main/image/site_ikon.ico" alt="sgse" width="60">
 </a>
 
 Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir.
