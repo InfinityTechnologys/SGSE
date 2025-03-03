@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://sgse.pages.dev/"><img width="136" src="https://raw.githubusercontent.com/InfinityTechnologys/SGSE_Prototip/refs/heads/main/image/site_ikon.ico" alt="sgse logo" /></a>
+  <a target="_blank href="https://sgse.pages.dev/"><img width="136" src="https://raw.githubusercontent.com/InfinityTechnologys/SGSE_Prototip/refs/heads/main/image/site_ikon.ico" alt="sgse logo" /></a>
 </div>
 
 # Sınırsız Gıda Sınırlı Erişim (SGSE) Projesi
