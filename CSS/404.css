@@ -29,5 +29,30 @@ h4 {
 }
 
 h2 {
+  margin-top: 150px;
   font-size: 35px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    margin-top: 100px;
+  }
+
+  h1 {
+    visibility: hidden;
+  }
+
+  h1::after{
+    content: "SGSE";
+    visibility: visible;
+    text-align: center;
+    font-size: 45px;
+    margin-left: -199px;
+  }
+
 }
