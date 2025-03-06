@@ -10,6 +10,21 @@ body {
   color: #333;
 }
 
+#errorBox {
+  display: none;
+  background-color: #ffdddd;
+  color: red;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 25px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-10px);
+  font-size: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
 header {
   background-color: #ff5733;
   padding: 20px 0px;
@@ -81,6 +96,12 @@ nav ul li a:hover {
   display: none;
 }
 
+.menu_button {
+  background: none;
+  border: none;
+  display: none;
+}
+
 .company-scan {
   padding: 20px 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -97,15 +118,6 @@ nav ul li a:hover {
 
 button:hover {
   background-color: #ff3d00;
-}
-
-::-webkit-scrollbar {
-  background: white;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #e3651d;
-  border-radius: 12px;
 }
 
 @media (max-width: 600px) {
@@ -130,7 +142,7 @@ button:hover {
   }
 
   header .ileri {
-    display: block;
+    display: none;
     margin-top: -70px;
     font-size: 0px;
     float: right;
@@ -157,6 +169,13 @@ button:hover {
     margin: 0;
     padding: 0;
     width: 100%;
+  } 
+
+  .menu_button {
+    display: block;
+    margin-top: -65px;
+    float: right;
+    margin-right: 20px;
   }
 
   header a {
