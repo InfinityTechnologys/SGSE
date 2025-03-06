@@ -17,6 +17,47 @@ header {
   text-align: center;
 }
 
+.download-btn {
+  margin-left: 70px;
+  align-items: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+  background-color: #b71c1c;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn img {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+#errorBox {
+  display: none;
+  background-color: #ffdddd;
+  color: red;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 25px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-10px);
+  font-size: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
 header h1 {
   margin-bottom: 30px;
   margin-right: 100px;
@@ -121,7 +162,7 @@ header .geri {
 .github_link {
   color: #333;
   font-size: 17px;
-  margin-top: 350px;
+  margin-top: 260px;
 }
 
 .youtube {
@@ -137,6 +178,12 @@ header .geri {
 .developer {
   margin-top: 60px;
   margin-left: 65px;
+}
+
+.menu_button {
+  background: none;
+  border: none;
+  display: none;
 }
 
 @media (max-width: 600px) {
@@ -201,7 +248,7 @@ header .geri {
   }
 
   header .ileri {
-    display: block;
+    display: none;
     margin-top: -70px;
     font-size: 0px;
     float: right;
@@ -217,8 +264,20 @@ header .geri {
     transition: 300ms all;
   }
 
-  header .geri {
+  .download-btn {
+    margin-left: 25px;
+    font-size: 15px;
+  }
+
+  .menu_button {
     display: block;
+    margin-top: -65px;
+    float: right;
+    margin-right: 20px;
+  }
+
+  header .geri {
+    display: none;
     margin-top: -70px;
     font-size: 0px;
     float: left;
