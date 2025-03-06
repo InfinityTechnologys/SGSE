@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="shotcut icon" href="image/site_ikon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme color" content="#ff5733" />
   </head>
   <body>
     <div class="preloader" id="preloader">
@@ -26,6 +27,10 @@
 
       <center><h1>Sınırsız Gıda Sınırlı Erişim</h1></center>
 
+      <button class="menu_button" onclick="menu()">
+        <img src="image/menu_button_img.PNG" width="40" alt="menu buton">
+      </button>
+
       <nav>
         <ul class="menu">
           <li>
@@ -34,10 +39,10 @@
             >
           </li>
           <li><a href="scan.html">İşletme Sorgula</a></li>
-          <li><a href="about.html">Hakkımızda</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
           <li><a href="signin.html">Kayıt Ol</a></li>
           <li><a href="app.html">Uygulamalar</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
         </ul>
       </nav>
 
@@ -48,8 +53,12 @@
       </center>
     </header>
 
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
+
     <center>
-      <button type="submit" class="company-scan" onclick="tara()">
+      <button type="submit" class="company-scan" onclick="showErrorMessage('İşletme Tarama işlemi başarısız!')">
         Çevredeki İşletmeleri Tara
       </button>
     </center>
@@ -80,11 +89,43 @@
         alert(
           "Bu site prototip gösterim sitesi olduğu için tarama işlemi yapılamamaktadır!"
         );
-      } 
+      }
 
       function ileri() {
-          window.location.href = "scan.html";
+        window.location.href = "scan.html";
       }
+
+      function showErrorMessage(message) {
+        let errorBox = document.getElementById("errorBox");
+        let errorText = document.getElementById("errorText");
+
+        errorText.innerHTML = message;
+        errorBox.style.display = "block";
+
+        setTimeout(() => {
+            errorBox.style.opacity = "1";
+            errorBox.style.transform = "translateY(0)";
+        }, 10);
+
+        setTimeout(() => {
+            closeError();
+        }, 3000);
+      }
+
+      function closeError() {
+        let errorBox = document.getElementById("errorBox");
+        errorBox.style.opacity = "0";
+        errorBox.style.transform = "translateY(-10px)";
+
+        setTimeout(() => {
+            errorBox.style.display = "none";
+        }, 500);
+      }
+
+      function menu() {
+        window.location.href = "menu.html";
+      }
+
     </script>
   </body>
 </html>
