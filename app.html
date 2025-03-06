@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SGSE | Uygulamalar</title>
     <link rel="stylesheet" href="CSS/app.css" />
-    <link rel="shotcut icon" href="image/site_ikon.ico" />
+    <link rel="shotcut icon" href="image/ikon_v2.PNG" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -24,7 +24,11 @@
         />
       </a>
 
-      <h1>Sınırsız Gıda Sınırlı Erişim</h1>
+      <center><h1>Sınırsız Gıda Sınırlı Erişim</h1></center>
+
+      <button class="menu_button" onclick="menu()">
+        <img src="image/menu_button_img.PNG" width="40" alt="menu buton">
+      </button>
 
       <nav>
         <ul>
@@ -32,7 +36,6 @@
             <a href="index.html">Ana Sayfa</a>
           </li>
           <li><a href="scan.html">İşletme Sorgula</a></li>
-          <li><a href="about.html">Hakkımızda</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
           <li><a href="signin.html">Kayıt Ol</a></li>
           <li>
@@ -40,8 +43,15 @@
               >Uygulamalar</a
             >
           </li>
+          <li><a href="about.html">Hakkımızda</a></li>
         </ul>
       </nav>
+
+      <center>
+        <button onclick="ileri()" class="ileri">
+          <img width="20" src="image/ileri.png" alt="ileri" />
+        </button>
+      </center>
 
       <center>
         <button onclick="geri()" class="geri">
@@ -49,6 +59,10 @@
         </button>
       </center>
     </header>
+
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
 
     <center><h1 class="title_mobil">Uygulamalarımız</h1></center>
 
@@ -70,8 +84,8 @@
     <center>
       <h3 class="mail_adress">e-Mail : infinitytech.takimi@gmail.com</h3>
     </center>
-    <br>
-    <br>
+    <br />
+    <br />
 
     <script>
       window.addEventListener("load", function () {
@@ -82,6 +96,41 @@
 
       function geri() {
         window.location.href = "signin.html";
+      }
+
+      function ileri() {
+        window.location.href = "about.html";
+      }
+
+      function showErrorMessage(message) {
+        let errorBox = document.getElementById("errorBox");
+        let errorText = document.getElementById("errorText");
+
+        errorText.innerHTML = message;
+        errorBox.style.display = "block";
+
+        setTimeout(() => {
+            errorBox.style.opacity = "1";
+            errorBox.style.transform = "translateY(0)";
+        }, 10);
+
+        setTimeout(() => {
+            closeError();
+        }, 3000);
+      }
+
+      function closeError() {
+        let errorBox = document.getElementById("errorBox");
+        errorBox.style.opacity = "0";
+        errorBox.style.transform = "translateY(-10px)";
+
+        setTimeout(() => {
+            errorBox.style.display = "none";
+        }, 500);
+      }
+
+      function menu() {
+        window.location.href = "menu.html";
       }
     </script>
   </body>
