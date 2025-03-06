@@ -17,6 +17,21 @@ header {
   text-align: center;
 }
 
+#errorBox {
+  display: none;
+  background-color: #ffdddd;
+  color: red;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 25px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-10px);
+  font-size: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
 header h1 {
   margin-bottom: 30px;
   margin-right: 100px;
@@ -75,15 +90,6 @@ nav ul li a:hover {
 }
 .hidden {
   display: none;
-}
-
-::-webkit-scrollbar {
-  background: white;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #e3651d;
-  border-radius: 12px;
 }
 
 .text_build{
@@ -147,6 +153,12 @@ header .geri {
   margin-top: 20px;
 }
 
+.menu_button {
+  background: none;
+  border: none;
+  display: none;
+}
+
 @media (max-width: 600px) {
   header h1 {
     visibility: hidden;
@@ -169,7 +181,7 @@ header .geri {
   }
 
   header .ileri{
-    display: block;
+    display: none;
     margin-top: -80px;
     font-size: 0px;
     float: right;
@@ -181,7 +193,7 @@ header .geri {
   }
 
   header .ileri {
-    display: block;
+    display: none;
     margin-top: -70px;
     font-size: 0px;
     float: right;
@@ -198,7 +210,7 @@ header .geri {
   }
 
   header .geri {
-    display: block;
+    display: none;
     margin-top: -70px;
     font-size: 0px;
     float: left;
@@ -259,6 +271,13 @@ header .geri {
     cursor: pointer;
     transition: 300ms all;
     margin-top: 90px;
+  }
+
+  .menu_button {
+    display: block;
+    margin-top: -65px;
+    float: right;
+    margin-right: 20px;
   }
 
   .company-search-container input[type="text"] {
