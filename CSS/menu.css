@@ -5,10 +5,11 @@ body {
   }
 
 .navigation {
-    margin-top: 150px;
+    margin-top: 90px;
     list-style: none;
     text-align: center;
     text-decoration: none;
+    display: none;
 }
 
 .navigation li {
@@ -23,9 +24,37 @@ body {
     color: #ff5733;;
 }
 
+.warning {
+    display: block;
+    margin-top: 150px;
+}
+
 .close {
     background: none;
     border: none;
     font-size: 35px;
     margin-left: 25px;
+    display: none;
+}
+
+.error_image {
+    display: block;
+}
+
+@media (max-width: 600px) { 
+    .close {
+        display: block;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .warning {
+        display: none;
+    }
+
+    .error_image {
+        display: none;
+    }
 }
