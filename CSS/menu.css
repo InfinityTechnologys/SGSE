@@ -1,60 +1,85 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: #333;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #333;
+}
 
 .navigation {
-    margin-top: 90px;
-    list-style: none;
-    text-align: center;
-    text-decoration: none;
-    display: none;
+  margin-top: 90px;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  display: none;
 }
 
 .navigation li {
-    margin-top: 45px;
-    text-decoration: underline;
-    text-decoration: none;
+  margin-top: 45px;
+  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navigation li a {
-    text-decoration: none;
-    font-size: 25px;
-    color: #ff5733;;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ff5733;
 }
 
 .warning {
-    display: block;
-    margin-top: 150px;
+  display: block;
+  margin-top: 60px;
 }
 
 .close {
-    background: none;
-    border: none;
-    font-size: 35px;
-    margin-left: 25px;
-    display: none;
+  background: none;
+  border: none;
+  font-size: 35px;
+  margin-left: 25px;
+  display: none;
+}
+
+.return_lobi {
+  display: block;
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ff5733;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 300ms all;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #ff3d00;
+  font-size: 20px;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.1);
 }
 
 .error_image {
-    display: block;
+  display: block;
 }
 
-@media (max-width: 600px) { 
-    .close {
-        display: block;
-    }
+@media (max-width: 600px) {
+  .close {
+    display: block;
+  }
 
-    .navigation {
-        display: block;
-    }
+  .navigation {
+    display: block;
+  }
 
-    .warning {
-        display: none;
-    }
+  .warning {
+    display: none;
+  }
 
-    .error_image {
-        display: none;
-    }
+  .error_image {
+    display: none;
+  }
+
+  .return_lobi {
+    display: none;
+  }
 }
