@@ -9,7 +9,7 @@
     <img src="https://raw.githubusercontent.com/InfinityTechnologys/SGSE_Prototip/refs/heads/main/image/site_ikon.ico" alt="sgse" width="60">
 </a>
 
-Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir.
+Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir. Bu uygulama erken erişim aşamasındadır, Hata oluşması gibi durumlarda veya eksik durumlarda geliştirmekteyizdir.
 
 ## Lisans Kullanım
 
@@ -30,8 +30,8 @@ Normal kullanıcı olarak kayıt olunduğunda Ana Menü sayfasında çevresindek
 
 ## Emeği Geçenler
 - Ahmet Taha Çokgez : Uygulama ve Sistem Yazılımı
-- Yakup Özalp : Proje Fikri, Rapor Hazırlama, Hata ve Öneri bildirme
-- Kadir Özer : Takım Kaptanlığı, Video Oluşturma, Editörlük
+- Yakup Özalp : Proje Fikri, Rapor Hazırlama, Editörlük, Hata ve Öneri bildir
+- Kadir Özer : Takım Kaptanlığı ve Video Oluşturma
 - Ömer Cavit Keskn : Medya Yöneticiliği, Hata ve Öneri, Animasyon
 - Serkan Akdemir : Danışman
 
