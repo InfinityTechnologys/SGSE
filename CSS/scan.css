@@ -100,14 +100,6 @@ nav ul li a:hover {
   padding-top: 20px;
 }
 
-header .ileri {
-  display: none;
-}
-
-header .geri {
-  display: none;
-}
-
 .company-search-container {
   max-width: 800px;
   margin: 30px auto 40px;
@@ -180,50 +172,8 @@ header .geri {
     width: 100%;
   }
 
-  header .ileri{
-    display: none;
-    margin-top: -80px;
-    font-size: 0px;
-    float: right;
-    margin-right: 10px;
-  }
-
   header ul {
     display: none;
-  }
-
-  header .ileri {
-    display: none;
-    margin-top: -70px;
-    font-size: 0px;
-    float: right;
-    margin-right: 10px;
-    background-color: #e3651d;
-    padding: 5px 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 300ms all;
-  }
-
-  header .geri {
-    display: none;
-    margin-top: -70px;
-    font-size: 0px;
-    float: left;
-    margin-left: 10px;
-    background-color: #e3651d;
-    padding: 5px 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 300ms all;
   }
 
   header nav ul li {
