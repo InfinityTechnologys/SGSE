@@ -1,1 +1,0 @@
-console.log("Developer : InfinityTech Teams, Geliştirici : InfinityTech Takımı");
