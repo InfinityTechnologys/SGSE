@@ -21,7 +21,9 @@ button {
 }
 
 button:hover {
-    background-color: #ff3d00;
+  background-color: #ff3d00;
+  font-size: 20px;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.1);
 }
 
 h4 {
@@ -47,12 +49,11 @@ h2 {
     visibility: hidden;
   }
 
-  h1::after{
+  h1::after {
     content: "SGSE";
     visibility: visible;
     text-align: center;
     font-size: 45px;
     margin-left: -199px;
   }
-
 }
