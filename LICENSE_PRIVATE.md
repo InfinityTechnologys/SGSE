@@ -44,7 +44,7 @@ When the full version of this software is released, it may be shared under certa
 Copyright (c) 2025 InfinityTech
 
 ## 1. Genel Hükümler
-Bu lisans, Sınırsız Gıda Sınırlı Erişim (SGSE) Projesi ve bu uygulamaya bağlı tüm alt uygulamaların kaynak kodlarını koruma altına almak amacıyla hazırlanmıştır. İşbu yazılım, özel mülkiyet olup, açık kaynak lisansı kapsamında değildir.
+Bu lisans, Sınırsız Gıda Sınırlı Erişim (SGSE) Projesi ve bu uygulamaya bağlı tüm alt uygulamaların kaynak kodlarını koruma altına almak amacıyla hazırlanmıştır. Bu yazılım, özel mülkiyet olup, açık kaynak lisansı kapsamında değildir.
 
 ## 2. Kullanım Kısıtlamaları
 Bu yazılımın kaynak kodları ve içeriği:
