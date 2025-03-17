@@ -11,8 +11,6 @@
 
 Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir. Bu uygulama erken erişim aşamasındadır, Hata oluşması gibi durumlarda veya eksik durumlarda geliştirmekteyizdir.
 
-## Lisans Kullanım
-
 >[!WARNING]
 >Bu uygulama erken erişim aşamasında ve prototip ön arayüz gösterilmiştir. Proje ileride tam sürümü çıkarılabilir ve çalışabilen bir uygulama haline getirilebilir.
 
