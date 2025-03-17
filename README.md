@@ -30,7 +30,6 @@ Normal kullanıcı olarak kayıt olunduğunda Ana Menü sayfasında çevresindek
 
 ## Emeği Geçenler
 - Ahmet Taha Çokgez : Uygulama ve Sistem Yazılımı
-- Emir Erkan Demir : Uygulama ve Sistem Yazılımı
 - Yakup Özalp : Proje Fikri, Rapor Hazırlama, Editörlük, Hata ve Öneri bildir
 - Kadir Özer : Takım Kaptanlığı, Seslendirme Yapma, Seneryo, Hata ve Öneri bildirme
 - Ömer Cavit Keskn : Medya Yöneticiliği, Hata ve Öneri, Animasyon
