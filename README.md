@@ -11,11 +11,18 @@
 
 Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTech Takımı tarafından geliştirilmiştir. Bu uygulama erken erişim aşamasındadır, Hata oluşması gibi durumlarda veya eksik durumlarda geliştirmekteyizdir.
 
+<br>
+<br>
+<br>
+
 >[!WARNING]
 >Bu uygulama erken erişim aşamasında ve prototip ön arayüz gösterilmiştir. Proje ileride tam sürümü çıkarılabilir ve çalışabilen bir uygulama haline getirilebilir.
 
 >[!WARNING]
 >Uygulamanın kaynak kodlarını kullanmayınız. `LICENSE_PRIVATE.md` lisansını okuyunuz!
+
+>[!NOTE]
+>İşletme sitesi yapılmaktadır.
 
 ## Proje Hakkında
 Bu proje 2025 Teknofest ve Sosyal Sorumluluk projesidir. Projedeki hedefimiz dar gelirli kişilerin ve ailelerin ücretsiz bir şekilde gıda alabilmesini sağlamaktır. Uygulama sizin yakınlarınızda bu sistemi destekleyen işletmeleri göstermek ve dar gelirli insanların bu yerlerde ücretsiz bir şekilde gıda tüketebilmesini sağlamaktır.
@@ -24,7 +31,7 @@ Bu proje 2025 Teknofest ve Sosyal Sorumluluk projesidir. Projedeki hedefimiz dar
 Normal kullanıcı olarak kayıt olunduğunda Ana Menü sayfasında çevresindeki bu sistemi destekleyen işletmeleri görüntüler. İstenilirsede İşletme Sorgulat bölümündende istediği bir işletmeyi sorgulayabilir.
 
 ## İşletmeler 
-İşletmeler, sisteme kayıt olduktan sonra SGSE İşletme Paneli bilgisayar uygulamasını kurarak işletmede toplam bağış görünür ve bağışa göre yemek seçip sisteme ekleyebilirler.
+İşletmeler, sisteme kayıt olduktan sonra SGSE İşletme Paneli bilgisayar uygulamasını kurarak işletmede toplam bağış görünür ve bağışa göre yemek seçip sisteme ekleyebilirler. Aynı işlemleri web sitesi üzerindende yapılabilmektedir.
 
 <br>
 <br>
