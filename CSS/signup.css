@@ -17,6 +17,11 @@ header {
   text-align: center;
 }
 
+header .user_profile_photo {
+  float: right;
+  margin-top: -65px;
+}
+
 #errorBox {
   display: none;
   background-color: #ffdddd;
@@ -49,6 +54,11 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+}
+
+header .user_profile_photo img {
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 nav ul li a:hover {
@@ -201,6 +211,17 @@ button:hover {
     margin-top: -65px;
     float: right;
     margin-right: 20px;
+  }
+
+  header .user_profile_photo img {
+    width: 55px;
+    margin-left: 15px;
+  }
+
+  header .user_profile_photo{
+    float: left;
+    margin-top: -90px;
+    width: 75px;
   }
 
   input[type="text"] {
