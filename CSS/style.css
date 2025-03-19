@@ -25,6 +25,11 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+header .user_profile_photo {
+  float: right;
+  margin-top: -65px;
+}
+
 header {
   background-color: #ff5733;
   padding: 20px 0px;
@@ -53,6 +58,11 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+}
+
+header .user_profile_photo img {
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .logo_white {
@@ -161,6 +171,18 @@ button:hover {
     display: inline-block;
     font-size: 20px;
     padding: 5px;
+  }
+
+  
+  header .user_profile_photo img {
+    width: 55px;
+    margin-left: 15px;
+  }
+
+  header .user_profile_photo{
+    float: left;
+    margin-top: -90px;
+    width: 75px;
   }
 
   header nav ul li a {
