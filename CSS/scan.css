@@ -17,6 +17,11 @@ header {
   text-align: center;
 }
 
+header .user_profile_photo {
+  float: right;
+  margin-top: -65px;
+}
+
 #errorBox {
   display: none;
   background-color: #ffdddd;
@@ -35,6 +40,11 @@ header {
 header h1 {
   margin-bottom: 30px;
   margin-right: 100px;
+}
+
+header .user_profile_photo img {
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 nav ul {
@@ -142,7 +152,7 @@ nav ul li a:hover {
 .sorgula_title {
   color: #e3651d;
   font-size: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .menu_button {
@@ -228,6 +238,17 @@ nav ul li a:hover {
     margin-top: -65px;
     float: right;
     margin-right: 20px;
+  }
+
+  header .user_profile_photo img {
+    width: 55px;
+    margin-left: 15px;
+  }
+
+  header .user_profile_photo{
+    float: left;
+    margin-top: -90px;
+    width: 75px;
   }
 
   .company-search-container input[type="text"] {
