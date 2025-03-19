@@ -17,6 +17,11 @@ header {
   text-align: center;
 }
 
+header .user_profile_photo {
+  float: right;
+  margin-top: -65px;
+}
+
 .download-btn {
   margin-left: 70px;
   align-items: center;
@@ -127,7 +132,7 @@ nav ul li a:hover {
 
 h4 {
   color: #e3651d;
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 10px;
   margin-left: 40px;
 }
@@ -154,7 +159,7 @@ h4 {
 .github_link {
   color: #333;
   font-size: 17px;
-  margin-top: 260px;
+  margin-top: 160px;
 }
 
 .youtube {
@@ -167,6 +172,11 @@ h4 {
   font-size: 17px;
 }
 
+header .user_profile_photo img {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
 .developer {
   margin-top: 60px;
   margin-left: 65px;
@@ -176,6 +186,11 @@ h4 {
   background: none;
   border: none;
   display: none;
+}
+
+.support_link{
+  margin-top: 100px;
+  margin-left: 65px;
 }
 
 @media (max-width: 600px) {
@@ -232,7 +247,7 @@ h4 {
   }
 
   .download-btn {
-    margin-left: 25px;
+    margin-left: 45px;
     font-size: 15px;
   }
 
@@ -241,5 +256,20 @@ h4 {
     margin-top: -65px;
     float: right;
     margin-right: 20px;
+  }
+
+  header .user_profile_photo img {
+    width: 55px;
+    margin-left: 15px;
+  }
+
+  header .user_profile_photo{
+    float: left;
+    margin-top: -90px;
+    width: 75px;
+  }
+
+  .support_link {
+    font-size: 21px;
   }
 }
