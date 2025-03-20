@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
 
 function go_sgse() {
   try {
-    window.location.href = "https://sgse.pages.dev";
+    window.location.href = "https://sgse.pages.dev/main";
   } catch (error) {
     showErrorMessage("Bir hata oluştu! . '" + error.name + "'");
   }
