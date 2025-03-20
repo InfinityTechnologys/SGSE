@@ -1,73 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
-  color: #333;
 }
 
-#errorBox {
-  display: none;
-  background-color: #ffdddd;
-  color: red;
-  border: 1px solid red;
-  padding: 20px;
-  margin: 5px 0;
-  border-radius: 25px;
-  position: relative;
-  opacity: 0;
-  transform: translateY(-10px);
-  font-size: 20px;
-  transition: opacity 0.5s ease, transform 0.5s ease;
+.title {
+  color: #ff5733;
+  font-size: 45px;
+  animation: slideUp 1s ease-out forwards;
 }
 
-header .user_profile_photo {
-  float: right;
-  margin-top: -65px;
-}
-
-header {
-  background-color: #ff5733;
-  padding: 20px 0px;
-  color: white;
-  text-align: center;
-}
-
-header h1 {
-  margin-bottom: 30px;
-  margin-right: 100px;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 60px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-header .user_profile_photo img {
-  margin-right: 20px;
-  margin-top: 10px;
-}
-
-.logo_white {
-  float: left;
-  margin-top: -10px;
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .preloader {
@@ -98,17 +48,48 @@ header .user_profile_photo img {
     transform: rotate(360deg);
   }
 }
+
+.title:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.ask:nth-child(2) {
+  animation-delay: 1s;
+}
+.sgse_isletme img:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.sgse_normal_kullanici img:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.sgse_normal_kullanici h2:nth-child(4) {
+  animation-delay: 2s;
+}
+button:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
 .hidden {
   display: none;
 }
 
-.menu_button {
-  background: none;
-  border: none;
+#errorBox {
   display: none;
+  background-color: #ffdddd;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 25px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-10px);
+  font-size: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.company-scan {
+button {
   padding: 20px 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   background-color: #ff5733;
@@ -119,82 +100,125 @@ header .user_profile_photo img {
   color: white;
   cursor: pointer;
   transition: 300ms all;
-  margin-top: 90px;
+  margin-top: 50px;
+  animation: slideUp 1s ease-out forwards;
 }
 
 button:hover {
   background-color: #ff3d00;
+  font-size: 20px;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 600px) {
-  header h1 {
+.sgse_normal_kullanici img {
+  margin-left: 150px;
+  margin-top: 100px;
+  display: flex;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.sgse_isletme img {
+  margin-right: 120px;
+  margin-top: -420px;
+  float: right;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.sgse_isletme h2 {
+  margin-right: 120px;
+  margin-top: -160px;
+  float: right;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.sgse_isletme button {
+  margin-right: 120px;
+  margin-top: -60px;
+  float: right;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.ask {
+  animation: slideUp 1s ease-out forwards;
+}
+
+.sgse_normal_kullanici h2 {
+  margin-left: 120px;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.sgse_normal_kullanici button {
+  margin-left: 130px;
+  animation: slideUp 1s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .title {
     visibility: hidden;
   }
 
-  header h1::after {
+  .title::after {
     content: "SGSE";
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
     visibility: visible;
   }
 
-  .logo_white {
-    display: none;
-  }
-
-  header nav ul {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-  }
-
-  header ul {
-    display: none;
-  }
-
-  header nav ul li {
-    background-color: #333;
-    padding: 10px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  } 
-
-  .menu_button {
-    display: block;
-    margin-top: -65px;
-    float: right;
-    margin-right: 20px;
-  }
-
-  header a {
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-  }
-
-  
-  header .user_profile_photo img {
-    width: 55px;
-    margin-left: 15px;
-  }
-
-  header .user_profile_photo{
-    float: left;
-    margin-top: -90px;
-    width: 75px;
-  }
-
-  header nav ul li a {
-    color: #e3651d;
-  }
-
-  header h1 {
+  .title {
     margin-top: -100px;
-    padding-top: 35px;
   }
 
-  .google_maps {
-    width: 100%;
+  .sgse_normal_kullanici {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .sgse_normal_kullanici img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .sgse_normal_kullanici h2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .sgse_normal_kullanici button {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .sgse_isletme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sgse_isletme img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    margin-top: 50px;
+  }
+
+  .sgse_isletme h2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .sgse_isletme button {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+  }
+  
 }

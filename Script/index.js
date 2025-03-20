@@ -1,13 +1,15 @@
 window.addEventListener("load", function () {
   setTimeout(function () {
     document.getElementById("preloader").classList.add("hidden");
-  }, 350);
+  }, 500);
 });
 
-function tara() {
-  alert(
-    "Bu site prototip gösterim sitesi olduğu için tarama işlemi yapılamamaktadır!"
-  );
+function go_sgse() {
+  try {
+    window.location.href = "https://sgse.pages.dev";
+  } catch (error) {
+    showErrorMessage("Bir hata oluştu! . '" + error.name + "'");
+  }
 }
 
 function showErrorMessage(message) {
@@ -37,6 +39,8 @@ function closeError() {
   }, 500);
 }
 
-function menu() {
-  window.location.href = "menu.html";
+function go_sgse_business() {
+  showErrorMessage(
+    "İşletme sitemiz yapım aşamasında olduğu için açılamamaktadır!"
+  );
 }

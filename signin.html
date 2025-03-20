@@ -6,6 +6,7 @@
     <title>SGSE | Kayıt Ol</title>
     <link rel="stylesheet" href="CSS/signup.css" />
     <link rel="shotcut icon" href="image/site_ikon.ico" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <div class="preloader" id="preloader">
@@ -13,7 +14,7 @@
     </div>
 
     <header>
-      <a href="index.html">
+      <a href="main.html">
         <img
           width="110"
           height="110"
@@ -29,13 +30,13 @@
         <img src="image/menu_button_img.PNG" width="40" alt="menu buton">
       </button>
 
-      <a class="user_profile_photo" href="login.html">
+      <a title="Giriş Yap" class="user_profile_photo" href="login.html">
         <img width="60" src="image/user.png" alt="User">
       </a>
 
       <nav>
         <ul>
-          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="main.html">Ana Sayfa</a></li>
           <li><a href="scan.html">İşletme Sorgula</a></li>
           <li><a href="login.html">Giriş Yap</a></li>
           <li>
@@ -67,11 +68,14 @@
     <center>
       <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
     </center>
-    <br />
+    <br>
+    <br>
+    <center><div class="g-recaptcha" data-sitekey="6LdN2_oqAAAAAKazNRLXDDwVOyQf2RsDbdUwfPuI"></div></center>
+
     <center>
       <button class="login_button" onclick="showErrorMessage('Kayıt olma başarısız! Uygulama prototip aşamasında.')">Hesap Oluştur</button>
     </center>
-    <br />
+    <br>
     <center>
       <a href="login.html">Hesabınız varmı? Giriş yapın</a>
     </center>
@@ -79,10 +83,6 @@
     <br>
     <br>
     <br>
-
-    <center>
-      <a class="company-login" href="company-signin.html">İşletme misiniz? İşletme kayıt ol sayfasına gidiniz.</a>
-    </center>
 
     <script src="Script/signin.js" defer></script>
   </body>

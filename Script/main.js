@@ -1,12 +1,12 @@
 window.addEventListener("load", function () {
   setTimeout(function () {
     document.getElementById("preloader").classList.add("hidden");
-  }, 350);
+  }, 1000);
 });
 
-function login() {
+function tara() {
   alert(
-    "Bu site prototip gösterim sitesi olduğu için ve yapım aşamasında olduğu için giriş yapma işlemi başarısız!"
+    "Bu site prototip gösterim sitesi olduğu için tarama işlemi yapılamamaktadır!"
   );
 }
 
@@ -40,4 +40,3 @@ function closeError() {
 function menu() {
   window.location.href = "menu.html";
 }
-

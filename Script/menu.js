@@ -1,3 +1,3 @@
 function main() {
-  window.location.href = "index.html";
+  window.location.href = "main.html";
 }

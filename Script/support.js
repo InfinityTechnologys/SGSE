@@ -1,2 +1,5 @@
-console.log("SGSE Version [1.13 ALPHA] | Support Pages");
-//pass
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    document.getElementById("preloader").classList.add("hidden");
+  }, 500);
+});
