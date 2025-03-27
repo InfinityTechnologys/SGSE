@@ -38,8 +38,8 @@ Normal kullanıcı olarak kayıt olunduğunda Ana Menü sayfasında çevresindek
 
 ## Emeği Geçenler
 - Ahmet Taha Çokgez : Uygulama ve Sistem Yazılımı
-- Yakup Özalp : Proje Fikri, Rapor Hazırlama, Editörlük, Hata ve Öneri bildir
-- Kadir Özer : Takım Kaptanlığı, Seslendirme Yapma, Seneryo, Hata ve Öneri bildirme
+- Yakup Özalp : Takım Kaptanlığı, Proje Fikri, Rapor Hazırlama, Editörlük, Hata ve Öneri bildir
+- Kadir Özer : Seslendirme Yapma, Seneryo, Hata ve Öneri bildirme
 - Ömer Cavit Keskin : Medya Yöneticiliği, Hata ve Öneri, Animasyon
 - Serkan Akdemir : Danışman
 
