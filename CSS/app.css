@@ -134,6 +134,14 @@ button:hover {
   margin-left: 50px;
 }
 
+.version {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+}
+
 .menu_button {
   background: none;
   border: none;
@@ -201,14 +209,11 @@ button:hover {
   }
 
   header .user_profile_photo img {
-    width: 55px;
-    margin-left: 15px;
+    display: none;
   }
 
   header .user_profile_photo{
-    float: left;
-    margin-top: -90px;
-    width: 75px;
+    display: none;
   }
 
   .app_download {

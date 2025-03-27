@@ -106,6 +106,14 @@ nav ul li a:hover {
   font-size: 30px;
 }
 
+.version {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+}
+
 .goto_home{
   padding-top: 20px;
 }
@@ -241,14 +249,11 @@ nav ul li a:hover {
   }
 
   header .user_profile_photo img {
-    width: 55px;
-    margin-left: 15px;
+    display: none;
   }
 
   header .user_profile_photo{
-    float: left;
-    margin-top: -90px;
-    width: 75px;
+    display: none;
   }
 
   .company-search-container input[type="text"] {

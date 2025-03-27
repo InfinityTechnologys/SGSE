@@ -37,6 +37,14 @@ body {
   display: none;
 }
 
+.user_profile_photo img {
+  display: none;
+}
+
+.user_profile_photo{
+  display: none;
+}
+
 .return_lobi {
   display: block;
   padding: 20px 30px;
@@ -45,10 +53,17 @@ body {
   outline: none;
   border-radius: 30px;
   font-size: 18px;
+  background-color: #ff5733;
   color: white;
   cursor: pointer;
   transition: 300ms all;
   margin-top: 30px;
+}
+
+.return_lobi:hover {
+  font-size: 20px;
+  background-color: #ff3d00;
+  box-shadow: 0 11px 5px rgba(0, 0, 0, 0.1);
 }
 
 .error_image {
@@ -74,5 +89,17 @@ body {
 
   .return_lobi {
     display: none;
+  }
+
+  .user_profile_photo img {
+    display: block;
+    width: 55px;
+  }
+  
+  .user_profile_photo{
+    display: block;
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
   }
 }

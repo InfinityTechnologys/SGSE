@@ -107,7 +107,7 @@ header .user_profile_photo img {
   color: #e3651d;
 }
 
-input[type="text"] {
+input[type="email"] {
   width: 20%;
   padding: 20px;
   border-radius: 30px;
@@ -145,6 +145,14 @@ input[type="password"] {
 
 button:hover {
   background-color: #ff3d00;
+}
+
+.version {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
 }
 
 .menu_button {
@@ -214,17 +222,14 @@ button:hover {
   }
   
   header .user_profile_photo img {
-    width: 55px;
-    margin-left: 15px;
+    display: none;
   }
 
   header .user_profile_photo{
-    float: left;
-    margin-top: -90px;
-    width: 75px;
+    display: none;
   }
 
-  input[type="text"] {
+  input[type="email"] {
     width: 70%;
     padding: 20px;
     border-radius: 30px;

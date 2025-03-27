@@ -110,30 +110,16 @@ button:hover {
   box-shadow: 0 9px 5px rgba(0, 0, 0, 0.1);
 }
 
-.sgse_normal_kullanici img {
-  margin-left: 150px;
-  margin-top: 100px;
-  display: flex;
-  animation: slideUp 1s ease-out forwards;
-}
-
-.sgse_isletme img {
-  margin-right: 120px;
-  margin-top: -420px;
-  float: right;
-  animation: slideUp 1s ease-out forwards;
-}
-
 .sgse_isletme h2 {
-  margin-right: 120px;
-  margin-top: -160px;
+  margin-right: 150px;
+  margin-top: 150px;
   float: right;
   animation: slideUp 1s ease-out forwards;
 }
 
 .sgse_isletme button {
-  margin-right: 120px;
-  margin-top: -60px;
+  margin-right: -270px;
+  margin-top: 240px;
   float: right;
   animation: slideUp 1s ease-out forwards;
 }
@@ -144,11 +130,15 @@ button:hover {
 
 .sgse_normal_kullanici h2 {
   margin-left: 120px;
+  margin-top: 150px;
+  position: fixed;
   animation: slideUp 1s ease-out forwards;
 }
 
 .sgse_normal_kullanici button {
   margin-left: 130px;
+  margin-top: 240px;
+  position:fixed;
   animation: slideUp 1s ease-out forwards;
 }
 
@@ -177,21 +167,17 @@ button:hover {
     text-align: center;
   }
 
-  .sgse_normal_kullanici img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-  }
-
   .sgse_normal_kullanici h2 {
     text-align: center;
     margin: 10px 0;
+    margin-top: 70px;
   }
 
   .sgse_normal_kullanici button {
     width: 100%;
     max-width: 300px;
     margin: 10px auto;
+    margin-top: 120px;
     display: block;
   }
 
@@ -202,22 +188,17 @@ button:hover {
     text-align: center;
   }
 
-  .sgse_isletme img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-    margin-top: 50px;
-  }
-
   .sgse_isletme h2 {
     text-align: center;
     margin: 10px 0;
+    margin-top: 260px;
   }
 
   .sgse_isletme button {
     width: 100%;
     max-width: 300px;
     margin: 10px auto;
+    margin-top: 15px;
     display: block;
   }
   

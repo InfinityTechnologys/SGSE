@@ -27,7 +27,7 @@ header .user_profile_photo {
   align-items: center;
   background-color: #d32f2f;
   color: white;
-  padding: 12px 20px;
+  padding: 15px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-size: 18px;
@@ -43,8 +43,8 @@ header .user_profile_photo {
 }
 
 .download-btn img {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
 }
 
@@ -264,14 +264,11 @@ header .user_profile_photo img {
   }
 
   header .user_profile_photo img {
-    width: 55px;
-    margin-left: 15px;
+    display: none;
   }
 
   header .user_profile_photo{
-    float: left;
-    margin-top: -90px;
-    width: 75px;
+    display: none;
   }
 
   .support_link {

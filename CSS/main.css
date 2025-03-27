@@ -126,7 +126,15 @@ button:hover {
   background-color: #ff3d00;
 }
 
-@media (max-width: 600px) {
+.version {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
   header h1 {
     visibility: hidden;
   }
@@ -173,16 +181,12 @@ button:hover {
     padding: 5px;
   }
 
-  
   header .user_profile_photo img {
-    width: 55px;
-    margin-left: 15px;
+    display: none;
   }
 
   header .user_profile_photo{
-    float: left;
-    margin-top: -90px;
-    width: 75px;
+    display: none;
   }
 
   header nav ul li a {
