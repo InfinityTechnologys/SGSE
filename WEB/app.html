@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGSE | Uygulamalar</title>
+    <link rel="stylesheet" href="CSS/app.css" />
+    <link rel="shotcut icon" href="image/site_ikon.ico" />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <header>
+      <a href="main.html">
+        <img
+          width="110"
+          height="110"
+          src="image/ikon_2.PNG"
+          alt="logo_white"
+          class="logo_white"
+        />
+      </a>
+
+      <center><h1>Sınırsız Gıda Sınırlı Erişim</h1></center>
+
+      <button class="menu_button" onclick="menu()">
+        <img src="image/menu_button_img.PNG" width="40" alt="menu buton" />
+      </button>
+
+      <a title="Giriş Yap" class="user_profile_photo" href="login.html">
+        <img width="60" src="image/user.png" alt="User">
+      </a>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="main.html">Ana Sayfa</a>
+          </li>
+          <li><a href="scan.html">İşletme Sorgula</a></li>
+          <li><a href="login.html">Giriş Yap</a></li>
+          <li><a href="signin.html">Kayıt Ol</a></li>
+          <li>
+            <a href="app.html" style="text-decoration: underline"
+              >Uygulamalar</a
+            >
+          </li>
+          <li><a href="about.html">Hakkımızda</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
+
+    <center><h1 class="title_mobil">Uygulamalarımız</h1></center>
+
+    <center>
+      <img
+        class="yapim_asamasinda"
+        width="450"
+        src="image/bakimda.PNG"
+        alt="yapiliyor"
+      />
+    </center>
+
+    <center>
+      <h2 class="asama_hakkinda">
+        Mobil ve diğer uygulamalarımız geliştirime aşamalarındadır.
+      </h2>
+    </center>
+    <br />
+    <br />
+
+    <h4 class="version">V1.14.0.50 [DEMO]</h4>
+
+    <script src="Script/app.js" defer></script>
+  </body>
+</html>

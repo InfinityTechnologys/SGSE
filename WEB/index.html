@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGSE</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shotcut icon" href="image/site_ikon.ico" />
+    <meta name="theme color" content="#ff5733" />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <center><h1 class="title">Sınırsız Gıda Sınırlı Erişim (SGSE)</h1></center>
+
+    <center><h2 class="ask">Gitmek istediğiniz siteyi seçiniz.</h2></center>
+
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
+
+    <div class="sgse_normal_kullanici">
+      <h2>SGSE NORMAL KULLANICI</h2>
+
+      <button onclick="go_sgse()" class="go_sgse">SGSE KULLANICI SİTESİ</button>
+    </div>
+
+    <div class="sgse_isletme">
+      <h2>SGSE İŞLETME HESABI</h2>
+
+      <button onclick="go_sgse_business()" class="go_sgse_business">
+        SGSE İŞLETME SİTESİ
+      </button>
+    </div>
+
+    <script src="Script/index.js" defer></script>
+  </body>
+</html>

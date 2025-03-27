@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+header {
+  background-color: #ff5733;
+  padding: 20px 0px;
+  color: white;
+  text-align: center;
+}
+
+header .user_profile_photo {
+  float: right;
+  margin-top: -65px;
+}
+
+#errorBox {
+  display: none;
+  background-color: #ffdddd;
+  color: red;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 25px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-10px);
+  font-size: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+header h1 {
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo_white {
+  float: left;
+  margin-top: -10px;
+}
+
+header .user_profile_photo img {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #e3651d;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.hidden {
+  display: none;
+}
+
+.title_login {
+  margin-top: 50px;
+  color: #e3651d;
+}
+
+input[type="email"] {
+  width: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+input[type="password"] {
+  width: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 35px;
+}
+
+.login_button {
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ff5733;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 300ms all;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: #ff3d00;
+}
+
+.version {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+}
+
+.menu_button {
+  background: none;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    visibility: hidden;
+  }
+
+  header h1::after {
+    content: "SGSE";
+    visibility: visible;
+  }
+
+  .logo_white {
+    display: none;
+  }
+
+  header nav ul {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header nav ul li {
+    background-color: #333;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  header a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  header nav ul li a {
+    color: #e3651d;
+  }
+
+  header h1 {
+    margin-top: -100px;
+    padding-top: 35px;
+  }
+
+  .google_maps {
+    width: 100%;
+  }
+
+  .menu_button {
+    display: block;
+    margin-top: -65px;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  header .user_profile_photo img {
+    display: none;
+  }
+
+  header .user_profile_photo{
+    display: none;
+  }
+
+  input[type="email"] {
+    width: 70%;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  input[type="password"] {
+    width: 70%;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+  }
+}

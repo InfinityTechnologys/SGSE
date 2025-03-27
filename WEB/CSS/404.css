@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #e3651d;
+}
+
+button {
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ff5733;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 300ms all;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: #ff3d00;
+  font-size: 20px;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 150px;
+  font-size: 35px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    margin-top: 100px;
+  }
+
+  h1 {
+    visibility: hidden;
+  }
+
+  h1::after {
+    content: "SGSE";
+    visibility: visible;
+    text-align: center;
+    font-size: 45px;
+    margin-left: -199px;
+  }
+}

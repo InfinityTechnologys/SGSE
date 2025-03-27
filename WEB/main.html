@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGSE | Ana Sayfa</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="shotcut icon" href="image/site_ikon.ico" />
+    <meta name="theme color" content="#ff5733" />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <header>
+      <a href="main.html">
+        <img
+          width="110"
+          height="110"
+          src="image/ikon_2.PNG"
+          alt="logo_white"
+          class="logo_white"
+        />
+      </a>
+
+      <center><h1>Sınırsız Gıda Sınırlı Erişim</h1></center>
+
+      <button class="menu_button" onclick="menu()">
+        <img src="image/menu_button_img.PNG" width="40" alt="menu buton" />
+      </button>
+
+      <a title="Giriş Yap" class="user_profile_photo" href="login.html">
+        <img width="60" src="image/user.png" alt="User" />
+      </a>
+
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="main.html" style="text-decoration: underline">Ana Sayfa</a>
+          </li>
+          <li><a href="scan.html">İşletme Sorgula</a></li>
+          <li><a href="login.html">Giriş Yap</a></li>
+          <li><a href="signin.html">Kayıt Ol</a></li>
+          <li><a href="app.html">Uygulamalar</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="errorBox">
+      <p id="errorText">Bir hata oluştu.</p>
+    </div>
+
+    <center>
+      <button
+        type="submit"
+        class="company-scan"
+        onclick="showErrorMessage('İşletme Tarama işlemi başarısız!')"
+      >
+        Çevredeki İşletmeleri Tara
+      </button>
+    </center>
+    <br />
+    <br />
+    <br />
+    <center>
+      <iframe
+        class="google_maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385396.32099016866!2d28.68254152450944!3d41.005370228224294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1739906297766!5m2!1str!2str"
+        width="480"
+        height="330"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </center>
+
+    <h4 class="version">V1.14.0.50 [DEMO]</h4>
+
+    <script src="Script/main.js" defer></script>
+  </body>
+</html>
