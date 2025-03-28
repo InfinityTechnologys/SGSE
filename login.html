@@ -21,31 +21,32 @@
           src="image/ikon_2.PNG"
           alt="logo_white"
           class="logo_white"
+          title="Ana Sayfa"
         />
       </a>
 
-      <center><h1>Sınırsız Gıda Sınırlı Erişim</h1></center>
+      <center><h1 title="SGSE">Sınırsız Gıda Sınırlı Erişim</h1></center>
 
       <button class="menu_button" onclick="menu()">
         <img src="image/menu_button_img.PNG" width="40" alt="menu buton" />
       </button>
 
       <a title="Giriş Yap" class="user_profile_photo" href="login.html">
-        <img width="60" src="image/user.png" alt="User">
+        <img width="60" src="image/user.png" alt="User" />
       </a>
 
       <nav>
         <ul>
-          <li><a href="main.html">Ana Sayfa</a></li>
-          <li><a href="scan.html">İşletme Sorgula</a></li>
+          <li><a title="Ana Sayfa" href="main.html">Ana Sayfa</a></li>
+          <li><a title="İşletme Sorgula" href="scan.html">İşletme Sorgula</a></li>
           <li>
-            <a href="login.html" style="text-decoration: underline"
+            <a title="Giriş Yap" href="login.html" style="text-decoration: underline"
               >Giriş Yap</a
             >
           </li>
-          <li><a href="signin.html">Kayıt Ol</a></li>
-          <li><a href="app.html">Uygulamalar</a></li>
-          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a title="Kayıt Ol" href="signin.html">Kayıt Ol</a></li>
+          <li><a title="Uygulamalar" href="app.html">Uygulamalar</a></li>
+          <li><a title="Hakkımızda" href="about.html">Hakkımızda</a></li>
         </ul>
       </nav>
     </header>
@@ -54,7 +55,7 @@
       <p id="errorText">Bir hata oluştu.</p>
     </div>
 
-    <center><h1 class="title_login">Giriş Yap</h1></center>
+    <center><h1 title="Giriş Yap" class="title_login">Giriş Yap</h1></center>
 
     <center>
       <input
@@ -68,30 +69,36 @@
     <center>
       <input type="password" name="" id="" placeholder="Şifrenizi giriniz..." />
     </center>
-    <br>
-    <br>
-    <center><div class="g-recaptcha" data-sitekey="6LdN2_oqAAAAAKazNRLXDDwVOyQf2RsDbdUwfPuI"></div></center>
+    <br />
+    <br />
+    <center>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LdN2_oqAAAAAKazNRLXDDwVOyQf2RsDbdUwfPuI"
+      ></div>
+    </center>
 
-    <br>
-    <center><a href="#">Şifremi unuttum</a></center>
+    <br />
+    <center><a title="Şifremi Unuttum" href="#">Şifremi unuttum</a></center>
     <center>
       <button
         class="login_button"
+        title="Giriş Yap"
         onclick="showErrorMessage('Giriş yapma işlemi başarısız! Uygulama prototip aşamasında.')"
       >
         Giriş Yap
       </button>
     </center>
-    <br>
+    <br />
     <center>
       <a href="signin.html">Hesabınız yok mu? Kayıt olun</a>
     </center>
 
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
 
-    <h4 class="version">V1.14.0.50 [DEMO]</h4>
+    <h4 title="Uygulama Sürümü : v1.4.5 DEMO" class="version">V1.4.5 [DEMO]</h4>
 
     <script src="Script/login.js" defer></script>
   </body>

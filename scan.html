@@ -20,10 +20,11 @@
           src="image/ikon_2.PNG"
           alt="logo_white"
           class="logo_white"
+          title="Ana Sayfa"
         />
       </a>
 
-      <center><h1>Sınırsız Gıda Sınırlı Erişim</h1></center>
+      <center><h1 title="SGSE">Sınırsız Gıda Sınırlı Erişim</h1></center>
 
       <button class="menu_button" onclick="menu()">
         <img src="image/menu_button_img.PNG" width="40" alt="menu buton" />
@@ -35,16 +36,16 @@
 
       <nav>
         <ul>
-          <li><a href="main.html">Ana Sayfa</a></li>
+          <li><a title="Ana Sayfa" href="main.html">Ana Sayfa</a></li>
           <li>
-            <a href="scan.html" style="text-decoration: underline"
+            <a title="İşletme Sorgula" href="scan.html" style="text-decoration: underline"
               >İşletme Sorgula</a
             >
           </li>
-          <li><a href="login.html">Giriş Yap</a></li>
-          <li><a href="signin.html">Kayıt Ol</a></li>
-          <li><a href="app.html">Uygulamalar</a></li>
-          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a title="Giriş Yap" href="login.html">Giriş Yap</a></li>
+          <li><a title="Kayıt Ol" href="signin.html">Kayıt Ol</a></li>
+          <li><a title="Uygulamalar" href="app.html">Uygulamalar</a></li>
+          <li><a title="Hakkımızda" href="about.html">Hakkımızda</a></li>
         </ul>
       </nav>
     </header>
@@ -53,13 +54,14 @@
       <p id="errorText">Bir hata oluştu.</p>
     </div>
 
-    <center><h1 class="sorgula_title">İşletme Sorgulat</h1></center>
+    <center><h1 title="İşletme Sorgula" class="sorgula_title">İşletme Sorgulat</h1></center>
 
     <div class="container">
       <div class="company-search-container">
         <input type="text" placeholder="Bir işletme sorgula..." />
         <button
           type="submit"
+          title="Sorgulat"
           onclick="showErrorMessage('İşletme Sorgulatma işlemi başarısız!')"
         >
           Sorgulat
@@ -67,7 +69,7 @@
       </div>
     </div>
 
-    <h4 class="version">V1.14.0.50 [DEMO]</h4>
+    <h4 title="Uygulama Sürümü : v1.4.5 DEMO" class="version">V1.4.5 [DEMO]</h4>
 
     <script src="Script/scan.js" defer></script>
   </body>

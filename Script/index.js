@@ -12,6 +12,14 @@ function go_sgse() {
   }
 }
 
+function go_sgse_business() {
+  try {
+    window.location.href = "https://sgse-isletme.pages.dev";
+  } catch (error) {
+    showErrorMessage("Bir hata oluştu! . '" + error.name + "'");
+  }
+}
+
 function showErrorMessage(message) {
   let errorBox = document.getElementById("errorBox");
   let errorText = document.getElementById("errorText");
@@ -37,10 +45,4 @@ function closeError() {
   setTimeout(() => {
     errorBox.style.display = "none";
   }, 500);
-}
-
-function go_sgse_business() {
-  showErrorMessage(
-    "İşletme sitemiz yapım aşamasında olduğu için açılamamaktadır!"
-  );
 }

@@ -1,12 +1,19 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
   color: #ff5733;
   font-size: 45px;
+  text-align: center;
   animation: slideUp 1s ease-out forwards;
+  margin-top: 30px;
 }
 
 @keyframes slideUp {
@@ -40,6 +47,11 @@ body {
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+
+.hidden {
+  display: none;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -49,29 +61,56 @@ body {
   }
 }
 
-.title:nth-child(1) {
-  animation-delay: 0.5s;
-}
-.ask:nth-child(2) {
-  animation-delay: 1s;
-}
-.sgse_isletme img:nth-child(3) {
-  animation-delay: 1.5s;
-}
-
-.sgse_normal_kullanici img:nth-child(4) {
-  animation-delay: 1.5s;
-}
-
-.sgse_normal_kullanici h2:nth-child(4) {
-  animation-delay: 2s;
-}
-button:nth-child(5) {
-  animation-delay: 2.5s;
+.container_update {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  border-left: 5px solid #ff3d00;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.hidden {
-  display: none;
+.update-content {
+  color: #333;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+button {
+  padding: 15px 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ff5733;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 300ms all;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: slideUp 1s ease-out forwards;
+}
+
+button:hover {
+  background-color: #ff3d00;
+  font-size: 19px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sgse_isletme,
+.sgse_normal_kullanici {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #errorBox {
@@ -82,124 +121,38 @@ button:nth-child(5) {
   padding: 10px;
   margin: 5px 0;
   border-radius: 25px;
-  position: relative;
-  opacity: 0;
-  transform: translateY(-10px);
   font-size: 20px;
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-button {
-  padding: 20px 30px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-color: #ff5733;
-  border: none;
-  outline: none;
-  border-radius: 30px;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-  transition: 300ms all;
-  margin-top: 50px;
-  animation: slideUp 1s ease-out forwards;
-}
-
-button:hover {
-  background-color: #ff3d00;
-  font-size: 20px;
-  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.1);
-}
-
-.sgse_isletme h2 {
-  margin-right: 150px;
-  margin-top: 150px;
-  float: right;
-  animation: slideUp 1s ease-out forwards;
-}
-
-.sgse_isletme button {
-  margin-right: -270px;
-  margin-top: 240px;
-  float: right;
-  animation: slideUp 1s ease-out forwards;
-}
-
-.ask {
-  animation: slideUp 1s ease-out forwards;
-}
-
-.sgse_normal_kullanici h2 {
-  margin-left: 120px;
-  margin-top: 150px;
-  position: fixed;
-  animation: slideUp 1s ease-out forwards;
-}
-
-.sgse_normal_kullanici button {
-  margin-left: 130px;
-  margin-top: 240px;
-  position:fixed;
-  animation: slideUp 1s ease-out forwards;
-}
-
 @media (max-width: 768px) {
   .title {
-    visibility: hidden;
+    font-size: 35px;
+    margin-top: 20px;
   }
 
-  .title::after {
-    content: "SGSE";
-    display: block;
-    font-size: 40px;
-    text-align: center;
-    margin: 0 auto;
-    visibility: visible;
-  }
-
-  .title {
-    margin-top: -100px;
-  }
-
-  .sgse_normal_kullanici {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .sgse_normal_kullanici h2 {
-    text-align: center;
-    margin: 10px 0;
-    margin-top: 70px;
-  }
-
-  .sgse_normal_kullanici button {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
-    margin-top: 120px;
-    display: block;
-  }
-
-  .sgse_isletme {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
+  .sgse_normal_kullanici h2,
   .sgse_isletme h2 {
-    text-align: center;
-    margin: 10px 0;
-    margin-top: 260px;
+    font-size: 22px;
+    margin-top: 20px;
   }
 
+  .sgse_normal_kullanici button,
   .sgse_isletme button {
     width: 100%;
     max-width: 300px;
-    margin: 10px auto;
-    margin-top: 15px;
-    display: block;
+    margin: 15px auto;
   }
-  
+
+  .container_update {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .update-content {
+    font-size: 16px;
+  }
 }
