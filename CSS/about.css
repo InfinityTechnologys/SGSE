@@ -198,6 +198,11 @@ header .user_profile_photo img {
   margin-left: 65px;
 }
 
+.update_link{
+  margin-top: 2px;
+  margin-left: 65px;
+}
+
 @media (max-width: 600px) {
   header h1 {
     visibility: hidden;
