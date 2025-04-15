@@ -34,3 +34,10 @@ function closeError() {
 function menu() {
   window.location.href = "menu.html";
 }
+
+const savedTheme = localStorage.getItem("site-theme");
+if (savedTheme) {
+  document.documentElement.setAttribute("data-theme", savedTheme);
+} else {
+  document.documentElement.setAttribute("data-theme", "light");
+}

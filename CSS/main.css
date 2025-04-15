@@ -122,8 +122,18 @@ header .user_profile_photo img {
   margin-top: 90px;
 }
 
-button:hover {
+.company-scan:hover {
   background-color: #ff3d00;
+}
+
+.theme-button {
+  background: none;
+  border: none;
+  float: right;
+  margin-top: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 300ms all;
 }
 
 .version {
@@ -186,6 +196,10 @@ button:hover {
   }
 
   header .user_profile_photo{
+    display: none;
+  }
+
+  .theme-button {
     display: none;
   }
 

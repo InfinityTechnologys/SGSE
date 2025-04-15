@@ -46,3 +46,8 @@ function closeError() {
     errorBox.style.display = "none";
   }, 500);
 }
+
+const savedTheme = localStorage.getItem("site-theme");
+if (savedTheme) {
+  document.documentElement.setAttribute("data-theme", savedTheme);
+}

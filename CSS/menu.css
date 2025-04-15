@@ -24,6 +24,10 @@ body {
   color: #ff5733;
 }
 
+.theme-button {
+  display: none;
+}
+
 .warning {
   display: block;
   margin-top: 60px;
@@ -41,7 +45,7 @@ body {
   display: none;
 }
 
-.user_profile_photo{
+.user_profile_photo {
   display: none;
 }
 
@@ -79,6 +83,14 @@ body {
     display: block;
   }
 
+  .theme-button {
+    background: none;
+    border: none;
+    float: right;
+    margin-top: 50px;
+    display: block;
+  }
+
   .warning {
     display: none;
   }
@@ -95,8 +107,8 @@ body {
     display: block;
     width: 55px;
   }
-  
-  .user_profile_photo{
+
+  .user_profile_photo {
     display: block;
     float: right;
     margin-top: -40px;

@@ -1,0 +1,86 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  [data-theme="dark"] body {
+    background-color: #212121;
+    color: #ffffff;
+  }
+  
+  [data-theme="light"] body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  [data-theme="dark"] p {
+    color: #ffffff;
+  }
+
+  [data-theme="dark"] .email {
+    color: #fff;
+  }
+
+  [data-theme="dark"] .twitter {
+    color: #fff;
+  }
+
+  [data-theme="dark"] .github_link {
+    color: #fff;
+  }
+
+  [data-theme="dark"] .youtube {
+    color: #fff;
+  }
+
+  [data-theme="dark"] .twitter a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .github_link a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .youtube a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .support_link a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .update_link a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .github_link a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] p a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .github_link a {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .login_ask {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .sign_up_ask {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .forget_password {
+    color: #ff3d00;
+  }
+
+  [data-theme="dark"] .close {
+    filter: invert(100%);
+  }
+
+  [data-theme="dark"] .preloader {
+    background: #212121;
+  }
+  
