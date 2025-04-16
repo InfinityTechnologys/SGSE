@@ -22,6 +22,9 @@ Bu proje Teknofest 2025 Projesidir. Bu proje basit bir web sitesidir. InfinityTe
 >Uygulamanın kaynak kodlarını kullanmayınız. `LICENSE_PRIVATE.md` lisansını okuyunuz!
 
 >[!NOTE]
+>En son yayımlanan sürümler için : https://sgse.pages.dev/update/update
+
+>[!NOTE]
 >SGSE İşletme sitesine ulşamak için ana site üzerinden seçip gidebilirsiniz veya https://sgse-isletme.pages.dev adresi üzerinden gidebilirsiniz.
 
 ## Proje Hakkında
