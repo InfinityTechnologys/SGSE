@@ -8,6 +8,7 @@ function toggleTheme() {
   const next = current === "dark" ? "light" : "dark";
   html.setAttribute("data-theme", next);
   localStorage.setItem("site-theme", next);
+  window.location.href = "main.html";
 }
 
 const savedTheme = localStorage.getItem("site-theme");

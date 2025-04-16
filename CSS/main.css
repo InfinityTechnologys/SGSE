@@ -12,7 +12,7 @@ body {
 
 #errorBox {
   display: none;
-  background-color: #ffdddd;
+  background-color: #fddada;
   color: red;
   border: 1px solid red;
   padding: 20px;

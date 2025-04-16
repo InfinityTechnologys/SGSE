@@ -83,4 +83,8 @@ body {
   [data-theme="dark"] .preloader {
     background: #212121;
   }
+
+  [data-theme="dark"] #errorBox {
+    background-color: #ff6a6a;
+  }
   
