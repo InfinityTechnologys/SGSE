@@ -87,4 +87,28 @@ body {
   [data-theme="dark"] #errorBox {
     background-color: #ff6a6a;
   }
+
+  [data-theme="dark"] .container_update {
+    background-color: #333;
+  }
+
+  [data-theme="dark"] .update-content {
+    color: white;
+  }
+
+  [data-theme="dark"] .company-search-container input[type="text"] {
+    background-color: #3d3d3d;
+    color: white;
+  }
+
+  [data-theme="dark"] input[type="email"] {
+    background-color: #3d3d3d;
+    color: white;
+  }
+
+  [data-theme="dark"] input[type="password"] {
+    background-color: #3d3d3d;
+    color: white;
+  }
+
   
